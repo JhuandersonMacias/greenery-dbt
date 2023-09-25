@@ -19,7 +19,7 @@ with source as (
       page_url,
       product_id as product_uuid,
       session_id as session_uuid,
-      created_at as web_event_created_at
+      created_at as web_event_created_at_utc
     FROM source
 )
 

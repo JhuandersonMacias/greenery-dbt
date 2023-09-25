@@ -13,7 +13,7 @@ with source as (
 , reaname_recast as ( 
     SELECT 
         order_id as order_uuid,
-        user_id as user_uuid,
+        user_id as order_user_uuid,
         address_id as address_uuid,
         promo_id as promo_name,
         status AS order_status,
