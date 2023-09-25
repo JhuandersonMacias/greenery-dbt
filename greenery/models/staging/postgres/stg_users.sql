@@ -13,7 +13,7 @@ with source as (
 , reaname_recast as ( 
     SELECT 
         user_id as user_uuid,
-        address_id as address_uuid,
+        address_id as user_address_uuid,
         first_name,
         last_name,
         phone_number,
