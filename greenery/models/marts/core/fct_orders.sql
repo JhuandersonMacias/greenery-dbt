@@ -16,7 +16,7 @@ order_items as (
 
 select  
     user_uuid,
-    orders. order_uuid,
+    orders.order_uuid,
     order_user_uuid,
     address_uuid,
     promo_name,
